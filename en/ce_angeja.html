@@ -1,0 +1,413 @@
+<html>
+		<head>
+		<title>Remodelação e Ampliação do Centro Escolar de Angeja</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="../assets/css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+		<link rel="shortcut icon" type="image/x-icon" href="../images/logo2.svg">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+.centrado {
+	display: flex;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body{
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+.slider{
+	position: relative;
+	width: 1000px;
+	min-height: 500px;
+	margin: 20px;
+	overflow: hidden;
+	border-radius: 0px;
+	margin: 0 auto;
+}
+
+.slider .slide{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	clip-path: circle(0% at 0 50%);
+}
+
+.slider .slide.active{
+	clip-path: circle(150% at 0 50%);
+	transition: 2s;
+}
+
+.slider .slide img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slider .slide .info{
+	position: absolute;
+	color: #222;
+	background: rgba(255, 255, 255, 0.3);
+	width: 75%;
+	margin-top: 50px;
+	margin-left: 50px;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 5px 25px rgb(1 1 1 / 5%);
+}
+
+.slider .slide .info h2{
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.slider .slide .info p{
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.navigation{
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+.slider:hover .navigation{
+	opacity: 0.8;
+}
+
+.prev-btn, .next-btn{
+	z-index: 999;
+	font-size: 2em;
+	color: #222;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 10px;
+	cursor: pointer;
+}
+
+.prev-btn{
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.next-btn{
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+.navigation-visibility{
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+}
+
+.navigation-visibility .slide-icon{
+	z-index: 999;
+	background: rgba(255, 255, 255, 0.5);
+	width: 20px;
+	height: 10px;
+	transform: translateY(-50px);
+	margin: 0 6px;
+	border-radius: 2px;
+	box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+}
+
+.navigation-visibility .slide-icon.active{
+	background: #4285F4;
+}
+
+@media (max-width: 900px){
+	.slider{
+	width: 100%;
+}
+
+.slider .slide .info{
+	position: relative;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+}
+
+@media (max-width: 500px){
+	.slider .slide .info h2{
+	font-size: 1.8em;
+	line-height: 40px;
+}
+
+.slider .slide .info p{
+	font-size: 0.9em;
+}
+}
+</style>
+
+
+
+</head>
+
+<body class="">
+	<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<div class="inner">
+
+						<!-- Logo -->
+							<a href="index.html" class="logo">
+								<span class="symbol"><img src="../images/logo2.svg" alt=""></span><span class="title">ARCHITECTURE</span>
+							</a>
+
+						<!-- Nav -->
+							<nav>
+								<ul>
+									<li><a href="#menu">Menu</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</header>
+
+			<!-- Menu -->
+				
+
+			<!-- Main -->
+				<div id="main">
+					<div class="inner">
+						<div><a href="javascript:window.history.back();" class="button small">Go Back</a></div>
+					</div>
+					<br/>
+					<div class="inner" align="center">
+						<h1>Remodelação e Ampliação do Centro Escolar de Angeja</h1>
+					</div>
+					</div>		
+
+<div class="slider">
+	<div class="slide active">
+		<img src="../projetos/ce_angeja/CEA1.jpg" alt="">
+								  </div>
+								  <div class="slide">
+									<img src="../projetos/ce_angeja/CEA2.jpg" alt="">
+								  </div>
+								  <div class="slide">
+									<img src="../projetos/ce_angeja/CEA3.jpg" alt="">
+								  </div>
+								  <div class="slide">
+									<img src="../projetos/ce_angeja/CEA4.jpg" alt="">
+								  </div>
+								  <div class="slide">
+									<img src="../projetos/ce_angeja/CEA5.jpg" alt="">
+								  </div>
+								  <div class="slide">
+									<img src="../projetos/ce_angeja/CEA6.jpg" alt="">
+								  </div>
+								  <div class="slide">
+									<img src="../projetos/ce_angeja/CEA7.jpg" alt="">
+								  </div>
+  <div class="navigation">
+	<i class="fas fa-chevron-left prev-btn"></i>
+	<i class="fas fa-chevron-right next-btn"></i>
+  </div>
+  <div class="navigation-visibility">
+	<div class="slide-icon active"></div>
+	<div class="slide-icon"></div>
+	<div class="slide-icon"></div>
+	<div class="slide-icon"></div>
+	<div class="slide-icon"></div>
+	<div class="slide-icon"></div>
+	<div class="slide-icon"></div>
+  </div>
+</div>
+<script type="text/javascript">
+	const slider = document.querySelector(".slider");
+	const nextBtn = document.querySelector(".next-btn");
+	const prevBtn = document.querySelector(".prev-btn");
+	const slides = document.querySelectorAll(".slide");
+	const slideIcons = document.querySelectorAll(".slide-icon");
+	const numberOfSlides = slides.length;
+	var slideNumber = 0;
+
+	//image slider next button
+	nextBtn.addEventListener("click", () => {
+	  slides.forEach((slide) => {
+		slide.classList.remove("active");
+	  });
+	  slideIcons.forEach((slideIcon) => {
+		slideIcon.classList.remove("active");
+	  });
+
+	  slideNumber++;
+
+	  if(slideNumber > (numberOfSlides - 1)){
+		slideNumber = 0;
+	  }
+
+	  slides[slideNumber].classList.add("active");
+	  slideIcons[slideNumber].classList.add("active");
+	});
+
+	//image slider previous button
+	prevBtn.addEventListener("click", () => {
+	  slides.forEach((slide) => {
+		slide.classList.remove("active");
+	  });
+	  slideIcons.forEach((slideIcon) => {
+		slideIcon.classList.remove("active");
+	  });
+
+	  slideNumber--;
+
+	  if(slideNumber < 0){
+		slideNumber = numberOfSlides - 1;
+	  }
+
+	  slides[slideNumber].classList.add("active");
+	  slideIcons[slideNumber].classList.add("active");
+	});
+
+	//image slider autoplay
+	var playSlider;
+
+	var repeater = () => {
+	  playSlider = setInterval(function(){
+		slides.forEach((slide) => {
+		  slide.classList.remove("active");
+		});
+		slideIcons.forEach((slideIcon) => {
+		  slideIcon.classList.remove("active");
+		});
+
+		slideNumber++;
+
+		if(slideNumber > (numberOfSlides - 1)){
+		  slideNumber = 0;
+		}
+
+		slides[slideNumber].classList.add("active");
+		slideIcons[slideNumber].classList.add("active");
+	  }, 4000);
+	}
+	repeater();
+
+		//stop the image slider autoplay on mouseover
+			slider.addEventListener("mouseover", () => {
+  			clearInterval(playSlider);
+		});
+
+		//start the image slider autoplay again on mouseout
+			slider.addEventListener("mouseout", () => {
+		  repeater();
+		});
+	</script>
+
+	<br/>
+	<br/>
+	<section>
+		<div class="inner">
+		<div class="table-wrapper">
+			<h2>Ficha Técnica</h2>
+			<table>
+				<tbody>
+					<tr>
+						<td>Obra</td>
+						<td>Remodelação e ampliação do Centro Escolar de Angeja</td>
+					</tr>
+					<tr>
+						<td>Dono de Obra</td>
+						<td>Município de Albergaria-a-Velha</td>
+					</tr>
+					<tr>
+						<td>Arquitetura</td>
+						<td>Rui Rosmaninho, Arquiteto</td>
+					</tr>
+					<tr>
+						<td>Estabilidade e Betão Armado, Rede de Abastecimento de Água, Redes de Drenagem de Águas Residuais e Pluviais</td>
+						<td>Pedro Santiago, Engenheiro Civil</td>
+					</tr>
+					<tr>
+						<td>Infraestruturas Elétricas, de Segurança e Telecomunicações</td>
+						<td>Licínio Alegre, Engenheiro Eletrotécnico</td>
+					</tr>
+					<tr>
+						<td>Instalações Mecânicas para AVAC e AQS, Estudo de Comportamento Térmico</td>
+						<td>Telmo Costa, Engenheiro Mecânico</td>
+					</tr>
+					<tr>
+						<td>Execução de Projeto</td>
+						<td>2010</td>
+					</tr>
+					<tr>
+						<td>Execução de Obra</td>
+						<td>2011/2013</td>
+					</tr>
+					<tr>
+						<td>Construtor</td>
+						<td>Edimarco Construções S.A.</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		</div>
+	</section>
+	<br/>
+	<br/>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			
+			<section>
+				<h2>Contacto</h2>
+				<ul class="icons">
+					<li><a href="contactos.html" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+					<li><a href="https://www.instagram.com/rosmaninhoarquitetura/" target="_blank" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+				</ul>
+			</section>
+			<ul class="copyright">
+							<li> COPYRIGHT © 2022 RA ARQUITETURA. TODOS OS DIREITOS RESERVADOS.</li>
+						</ul>
+		</div>
+				</footer>
+
+				</div>
+
+				<!-- Scripts -->
+				<script src="assets/js/jquery.min.js"></script>
+				<script src="assets/js/browser.min.js"></script>
+				<script src="assets/js/breakpoints.min.js"></script>
+				<script src="assets/js/util.js"></script>
+				<script src="assets/js/main.js"></script><nav id="menu"><div class="inner">
+					<h2>Menu</h2>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="projetos.html">Obras e Projetos</a></li>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="contactos.html">Contactos</a></li>
+					</ul>
+				</div><a class="close" href="#menu">Close</a></nav>
+
+
+  </body>
+  </html>
