@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>TESTE RA - Projetos</title>
+		<title>RA - Projetos</title>
 		<style>
 			#container div{
     display:inline-block;
@@ -48,6 +48,14 @@
   line-height: 50px;
   color: white;
   font-size: 22px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .4s;
+}
+
+.gotopbtn.active {
+	pointer-events: auto;
+	opacity: 1;
 }
     
     .small-btn {
@@ -70,7 +78,7 @@
 						<div class="inner">
 
 							<!-- Logo -->
-								<a href="/rawebsite/" class="logo">
+								<a href="index.html" class="logo">
 									<span class="symbol"><img src="images/logo2.svg" alt="" /></span><span class="title">ARQUITETURA</span>
 								</a>
 
@@ -98,9 +106,9 @@
 				<!-- Main -->
 				
 					<div id="main">
-						<div class="inner" >
+						<div class="inner fade-in slide-in" >
 							<header>
-								<h1  align="center" style="font-size: 3em;margin: 0em; margin-bottom: 0em;">PROJETOS</h1>
+								<h1 align="center" style="font-size: 3em;margin: 0em; margin-bottom: 0em;">PROJETOS</h1>
 								<br/>
 							</header>
 							<div style="width:2500px;max-width:100%;text-align:center" id="container">
@@ -670,11 +678,13 @@ height: 1px;
 		</div>
 
 		<!-- Scripts -->
+
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/scroll.js"></script>
 
 	</body>
 </html>
